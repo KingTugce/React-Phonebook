@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-
+import Navbar from './components/Navbar'
 import routes from './config/route'
 // import Home from './pages/Home'
 // import Dashboard from './pages/Dashboard'
@@ -9,10 +9,9 @@ import routes from './config/route'
 function App() {
 
 
-  return (
-    
+  return (    
       <BrowserRouter>
-        {/*Navbar goes here*/}
+        <Navbar />
           <Routes>
             { routes.map(( route, index) => (
               <Route

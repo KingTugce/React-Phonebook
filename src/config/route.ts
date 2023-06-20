@@ -18,12 +18,12 @@ const routes: RouteType[] = [
     {
     path:"/dashboard",
     component: Dashboard,
-    name: Dashboard,
+    name: "Dashboard",
     },
     {
     path:"/about",
     component: About,
-    name:About,
+    name:"About",
     },
 ];
 
