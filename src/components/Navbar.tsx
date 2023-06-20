@@ -22,7 +22,19 @@ return (
                 <i className="fa-solid fa-bars"></i>
             </button>
         </div>
-            { isVisible ? (<div>It is Visible</div>
+            { isVisible ? (
+            <div className='w-full block flex-grow items-center'>
+                <div className="text-sm lg:flex-grow">
+                    <Button className="p-3 m-5 bg-teal-500 justify-center">
+                        <div>
+                            <Link to='/' className='flex place-items-center mt-4 lg:inline-block lg:mt-0
+                            text-teal-200 hover-text-white mr-4'>
+                                Home
+                            </Link>
+                        </div>
+                    </Button>
+                </div>
+            </div>
             ) : (
             <></>
 
