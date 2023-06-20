@@ -22,7 +22,11 @@ return (
                 <i className="fa-solid fa-bars"></i>
             </button>
         </div>
-        { isVisible ? (<div>It is Visible</div>) : (<div>It is not Visible</div>)}
+            { isVisible ? (<div>It is Visible</div>
+            ) : (
+            <></>
+
+        )}
     </nav>
     )
 }
